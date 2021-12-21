@@ -30,6 +30,9 @@ header {
   width: 100%;
   color: white;
   font-family: "Carter one", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header h1 {
