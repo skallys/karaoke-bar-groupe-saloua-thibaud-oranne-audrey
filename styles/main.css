@@ -57,11 +57,15 @@ footer {
 
 /* section info avec map + contacts */
 #info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
 }
 
 #carte {
   background-color: #d7c101;
-  display: flex;
+  width: 50vw;
+}
+
+#horaires {
+  background-color: #d76701;
+  width: 50vw;
 }
