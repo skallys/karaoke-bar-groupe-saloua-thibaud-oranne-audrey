@@ -1,10 +1,14 @@
-body {
+
+
+
+* {
   margin: 0;
 }
 
 img {
   max-width: 100%;
 }
+
 
 #gallery {
   background-color: aquamarine;
@@ -14,3 +18,48 @@ img {
   grid-gap: 10px;
   list-style: none;
 }
+
+header{
+  background-color: blueviolet;
+  text-align: center;
+  position: fixed;
+  height: 25%;
+  width: 100%;
+
+}
+
+
+
+
+form {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+}
+form input {
+  justify-content: left;
+}
+
+footer {
+  padding: 10%;
+  display: flex;
+  background-color: black;
+  height: 500px;
+  width: 100vw;
+}
+
+.msg input {
+  width: 150vh;
+  height: 30vh;
+}
+.contact input {
+  width: 150vh;
+  margin-left: 22px;
+}
+
+.submit input {
+  justify-content: right;
+  width: 20px;
+  height: 20px;
+}
+
