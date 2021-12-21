@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@400;500;700;800&display=swap");
+
 * {
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -17,10 +20,19 @@ img {
 
 header {
   background-color: blueviolet;
-  text-align: center;
-  position: fixed;
-  height: 25%;
   width: 100%;
+  color: white;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: "Carter One", cursive;
+  text-align: center;
+  font-size: 120px;
+  line-height: 185px;
 }
 
 form {
@@ -56,8 +68,6 @@ footer {
 }
 
 /* section info avec map + contacts */
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
 
 #infos {
   display: flex;
