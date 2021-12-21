@@ -1,11 +1,9 @@
 img {
   max-width: 100%;
 }
-
 header{
-  position: fixed;
   background-color: blueviolet;
-  height: 25%;
   text-align: center;
+  position: fixed;
+  height: 25%;
 }
-
