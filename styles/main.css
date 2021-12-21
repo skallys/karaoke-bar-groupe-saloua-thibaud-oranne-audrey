@@ -56,8 +56,9 @@ footer {
 }
 
 /* section info avec map + contacts */
-#info {
+#infos {
   display: flex;
+  flex-direction: row;
 }
 
 #carte {
