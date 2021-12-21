@@ -86,3 +86,25 @@ footer {
   font-size: 48px;
   line-height: 59px;
 }
+
+#horaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 31px;
+  background-color: #d76701;
+  width: 50vw;
+  height: 368px;
+}
+
+#horaires h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+#horaires h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
