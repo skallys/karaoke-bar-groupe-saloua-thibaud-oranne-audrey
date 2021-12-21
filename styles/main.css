@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@400;500;700;800&display=swap");
+/* faut utiliser :
+    font-family: 'Carter One', cursive;
 
-
+    font-family: 'Montserrat', sans-serif;
+    avec la Montserrat il y a 4 font-weight: (400, 500, 700, 800)
+    */
 
 * {
   margin: 0;
@@ -8,7 +13,6 @@
 img {
   max-width: 100%;
 }
-
 
 #gallery {
   background-color: aquamarine;
@@ -19,17 +23,13 @@ img {
   list-style: none;
 }
 
-header{
+header {
   background-color: blueviolet;
   text-align: center;
   position: fixed;
   height: 25%;
   width: 100%;
-
 }
-
-
-
 
 form {
   position: absolute;
@@ -62,4 +62,3 @@ footer {
   width: 20px;
   height: 20px;
 }
-
