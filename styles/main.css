@@ -61,25 +61,34 @@ footer {
 
 #infos {
   display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 #carte {
   background-color: #d7c101;
   width: 50vw;
   height: 368px;
-  padding: 31px 50px 60px 34px;
+  padding: 31px 50px 31px 34px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#carte h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
 }
 
 #horaires {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 31px;
   background-color: #d76701;
   width: 50vw;
   height: 368px;
-  font-family: "Montserrat", sans-serif;
-  color: white;
 }
 
 #horaires h3 {
