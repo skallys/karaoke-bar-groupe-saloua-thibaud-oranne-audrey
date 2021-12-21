@@ -5,6 +5,20 @@ img {
   max-width: 100%;
 }
 
+header{
+  background-color: blueviolet;
+  text-align: center;
+  position: fixed;
+  height: 25%;
+  width: 100%;
+
+}
+
+body {
+  margin:0;
+}
+
+
 form {
   position: absolute;
   font-size: 30px;
@@ -36,3 +50,4 @@ footer {
   width: 20px;
   height: 20px;
 }
+
