@@ -56,17 +56,40 @@ footer {
 }
 
 /* section info avec map + contacts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
 #infos {
   display: flex;
-  flex-direction: row;
 }
 
 #carte {
   background-color: #d7c101;
   width: 50vw;
+  height: 368px;
+  padding: 31px 50px 60px 34px;
 }
 
 #horaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 31px;
   background-color: #d76701;
   width: 50vw;
+  height: 368px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+#horaires h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+#horaires h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
 }
