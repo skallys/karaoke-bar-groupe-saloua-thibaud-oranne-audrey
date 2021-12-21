@@ -24,11 +24,18 @@ img {
 }
 
 header {
-  background-color: blueviolet;
-  text-align: center;
+  background-color: #b44ad9;
   position: fixed;
-  height: 25%;
+  height: 350px;
   width: 100%;
+  color: white;
+  font-family: "Carter one", cursive;
+}
+
+header h1 {
+  font-size: 120px;
+  line-height: 185px;
+  text-align: center;
 }
 
 form {
