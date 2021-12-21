@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@400;500;700;800&display=swap");
+
 /* à intégré de la manière suivante dans le css:
     font-family: 'Carter One', cursive;
 
@@ -6,8 +7,10 @@
     il y a 4 font-weight à la Montserrat: 400, 500, 700, 800
 */
 
+
 * {
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -24,6 +27,7 @@ img {
 }
 
 header {
+
   background-color: #b44ad9;
   height: 350px;
   width: 100%;
@@ -38,6 +42,22 @@ header h1 {
   font-size: 120px;
   line-height: 185px;
   text-align: center;
+
+  background-color: blueviolet;
+  width: 100%;
+  color: white;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: "Carter One", cursive;
+  text-align: center;
+  font-size: 120px;
+  line-height: 185px;
+
 }
 
 form {
@@ -72,7 +92,9 @@ footer {
   height: 20px;
 }
 
+
 /* section info avec map + horaires */
+
 
 #infos {
   display: flex;
