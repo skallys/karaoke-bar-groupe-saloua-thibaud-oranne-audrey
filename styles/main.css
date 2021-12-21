@@ -70,3 +70,19 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: white;
 }
+
+#carte {
+  background-color: #d7c101;
+  width: 50vw;
+  height: 368px;
+  padding: 31px 50px 31px 34px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#carte h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
