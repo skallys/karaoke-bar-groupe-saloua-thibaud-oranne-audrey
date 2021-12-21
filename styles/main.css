@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@400;500;700;800&display=swap");
+/* à intégré de la manière suivante dans le css:
+    font-family: 'Carter One', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+    il y a 4 font-weight à la Montserrat: 400, 500, 700, 800
+*/
+
 * {
   margin: 0;
 }
