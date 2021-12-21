@@ -6,4 +6,9 @@ header{
   text-align: center;
   position: fixed;
   height: 25%;
+  width: 100%;
+}
+
+body {
+  margin:0;
 }
